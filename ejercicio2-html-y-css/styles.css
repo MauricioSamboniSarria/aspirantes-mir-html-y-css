@@ -1,0 +1,46 @@
+.formulario{
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    width: auto;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    box-shadow: 8px 5px 3px 1px gray;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#email, #password, #select{
+    box-sizing: border-box;
+    width: 100%;   
+    padding: 7px;
+}      
+
+.password{
+    margin: 25px auto;
+}
+
+.checkbox{
+    margin: 25px auto;
+}
+
+.button{
+    text-align: right;
+}
+
+#button{ 
+    padding: 5px 15px;
+    font-size: medium;
+}
+    
+@media(min-width: 500px){
+    .formulario{
+        background: linear-gradient(#bd09b7, #6b4cf5);
+        width: 300px;
+        padding: 20px;
+        border-radius: 20px;
+        margin: 0 auto;
+        box-shadow: 8px 5px 3px 1px gray;
+        color: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+    }   
+}
